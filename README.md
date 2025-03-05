@@ -1,4 +1,4 @@
-# Matriz-de-leds
+# Projeto Animações na Matriz de Leds com Rapsberry Pi Pico W
 
 Repositório para a tarefa sobre matriz de LEDs do Raspberry Pi Pico W, do curso de capacitação Embarcatech.
 
@@ -34,8 +34,8 @@ executar animações na matriz de LEDs.
 
 1. **Clone o repositório**:
    ```sh
-   git clone https://github.com/seu-usuario/Matriz-de-leds.git
-   cd Matriz-de-leds
+   git clone https://github.com/dev-leonunes/raspberrypi-leds.git
+   cd raspberrypi-leds
    ```
 2. **Configurar o ambiente no Visual Studio Code**:
     - Abra o Visual Studio Code no diretório do projeto.
@@ -55,13 +55,14 @@ executar animações na matriz de LEDs.
 
 - `.vscode`: Diretório contendo configurações do Visual Studio Code.
 - `build`: Diretório onde os arquivos compilados serão gerados.
+- ``pio_matrix``: Diretório contendo os arquivos da biblioteca para controle da matriz de LEDS.
+   - ``matriz_leds.c`` e ``matriz_leds.h``: Código fonte e cabeçalho para controle da matriz de LEDs.
+   - ``pio_matrix.pio``: Código PIO para controle da matriz de LEDs.
 - `CMakeLists.txt`: Arquivo de configuração do CMake para o projeto.
-- `tarefa_embarca.c`: Código fonte principal do projeto.
-- `matriz_leds.c` e `matriz_leds.h`: Código fonte e cabeçalho para controle da matriz de LEDs.
 - `diagram.json`: Diagrama de conexões dos componentes.
 - `pico_sdk_import.cmake`: Arquivo de importação do SDK do Raspberry Pi Pico.
+- `raspberrypi-leds.c`: Código fonte principal do projeto.
 - `wokwi.toml`: Arquivo de configuração para simulação no Wokwi.
-- `pio_matrix.pio`: Código PIO para controle da matriz de LEDs.
 
 ## Contribuição
 
