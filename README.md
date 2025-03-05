@@ -8,6 +8,8 @@ Este projeto demonstra o controle de uma matriz de LEDs utilizando o Raspberry P
 Pico W. Ele inclui funcionalidades para acender LEDs, ler um teclado matricial e
 executar animações na matriz de LEDs.
 
+<img src="./assets/image.png" width=400px>
+
 ## Funcionalidades
 
 - Acender LEDs com diferentes intensidades e cores.
