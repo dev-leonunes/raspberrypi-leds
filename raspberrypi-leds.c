@@ -1,6 +1,6 @@
 #include "pico/stdlib.h"
 #include "hardware/pio.h"
-#include "matriz_leds.h"
+#include "pio_matrix/matriz_leds.h"
 #include "pico/bootrom.h"
 
 int main()
